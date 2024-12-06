@@ -1,12 +1,9 @@
  package task2;
 
- import award_show.Dignitary;
  import com.fasterxml.jackson.databind.ObjectMapper;
 
  import java.io.File;
  import java.io.IOException;
- import java.nio.file.Files;
- import java.nio.file.Paths;
 
  public class DignitaryProcessorJackson {
      private static void jsonParser(String filePath){
